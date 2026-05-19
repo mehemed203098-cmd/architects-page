@@ -7,3 +7,22 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.first-nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 63px 0 0 1203px;
+}
+nav ul{
+  list-style: none;
+  display:flex;
+  align-items:center;
+  
+ 
+  
+}
+nav ul li a{
+  text-decoration: none;
+}
