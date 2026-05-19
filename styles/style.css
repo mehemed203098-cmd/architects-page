@@ -8,21 +8,67 @@
   font-style: normal;
 }
 
+body {
+    background-color: #FAF5EC;
+}
+
 .first-nav{
 
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin: 63px 0 0 1203px;
+   margin: 19px 229px 0 0; 
+}
+
+.first-nav h2 {
+    margin-left: 50px;  /* যত বাড়াবে তত ডানে সরবে */
 }
 nav ul{
   list-style: none;
   display:flex;
   align-items:center;
+  /* margin: 63px 0 0 223px; */
+  gap: 20px;
   
  
   
 }
 nav ul li a{
   text-decoration: none;
+}
+
+/*new =================================*/
+
+.second{
+
+   
+    
+    /* align-items:center; */
+    /* margin: 0px 0px 0 530px; */
+    text-align: center;
+    
+}
+
+.second h2 {
+    margin-bottom: 20px;  /* h2 এর নিচে gap */
+}
+
+.second p {
+    margin-bottom: 30px;  /* paragraph এর নিচে gap, button এর উপরে gap */
+}
+
+.second {
+    margin-bottom: 40px;  /* পুরো section এর নিচে gap, image এর উপরে */
+}
+
+.image {
+    text-align: center;  /* div কে center করতে */
+    gap:5px;
+}
+
+.image img {
+    width: 60%;          /* যত % তত ছোট-বড় হবে */
+    height: auto;        /* height automatically adjust হবে */
+    display: block;
+    margin: 0 auto;      /* image কে মাঝখানে আনতে */
 }
